@@ -53,16 +53,16 @@ public:
   // return true if the numbers are not equal
   bool operator!=(const LargeNum &rhs) const;
 
-  // return true if the left-hand-side number is greater than the
+  // return true if the left-hand-side number is less than the
   // right-hand-side number
   bool operator<(const LargeNum &rhs) const;
 
-  // return true if the left-hand-side number is less than or equal to the
+  // return true if the left-hand-side number is greater than the
   // right-hand-side number
   bool operator>(const LargeNum &rhs) const;
 
-  // return true if the left-hand-side number is less than the right-hand-side
-  // number
+  // return true if the left-hand-side number is less than or equal to the
+  // right-hand-side number
   bool operator<=(const LargeNum &rhs) const;
 
   // return true if the left-hand-side number is greater than or equal to the

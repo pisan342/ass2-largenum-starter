@@ -28,7 +28,7 @@ echo "====================================================="
 echo "1. Compiles without warnings with -Wall -Wextra flags"
 echo "====================================================="
 
-g++ -g -std=c++11 -Wall -Wextra -Wno-sign-compare *.cpp
+clang++ -g -std=c++11 -Wall -Wextra -Wno-sign-compare *.cpp
 
 echo "====================================================="
 echo "2. Runs and produces correct output"
