@@ -4,7 +4,7 @@
 
 # How we want to call our executable, 
 # possibly with some command line parameters
-EXEC_PROGRAM="./a.out test-1.txt test-2.txt test-3.txt"
+EXEC_PROGRAM="./a.out"
 
 # Timestamp for starting this script
 date
