@@ -89,8 +89,6 @@ void test4() {
   // assert(LargeNum(-25) * LargeNum(-5) == LargeNum(125));
   // assert(LargeNum(-25) * LargeNum(5) == LargeNum(-125));
   // assert(LargeNum(25) * LargeNum(-5) == LargeNum(-125));
-  // assert(LargeNum("123456789123456789") * LargeNum("123456789123456789") ==
-  //        LargeNum("15241578780673678515622620750190521"));
   // cout << "test4 complete" << endl;
 }
 
