@@ -36,6 +36,12 @@ void test1() {
   // LargeNum num7 = num1 + num6;
   // strs << num7;
   // assert(strs.str() == "111,345");
+
+  // strs.str("");
+  // LargeNum num8 = num0 + num1;
+  // strs << num8;
+  // assert(strs.str() == "1,234,567,890,123,469,134");
+
   // cout << "test1 complete" << endl;
 }
 
